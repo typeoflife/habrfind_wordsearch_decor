@@ -50,7 +50,6 @@ def get_content(html):
     return data_list
 
 
-
 @log_decor_for_path()
 def parse(count_page=3):
     for count in range(count_page):
